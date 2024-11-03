@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    text-align: center;
+    /*background-image: url("image2.png");*/
+
+}
+input{
+    border: 0;
+    background: #cdcdcd;
+    border-radius: 20px;
+    width: 250px;
+    line-height: 40px;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+button{
+    margin-top: 60px;
+    background: #2252c8;
+    border:0;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 2px 10px blue;
+}
+
+button:focus{
+    outline: 0;
+    background: #3b61bd;
+}
+
+.illegal-pwd{
+    border: red 1px solid !important;
+    box-shadow: 0 0 5px red;
+}

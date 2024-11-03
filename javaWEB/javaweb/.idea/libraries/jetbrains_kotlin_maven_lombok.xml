@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jetbrains.kotlin.maven.lombok" type="repository">
+    <properties maven-id="org.jetbrains.kotlin:kotlin-maven-lombok:2.0.10" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-maven-lombok-2.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-lombok-compiler-plugin-2.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

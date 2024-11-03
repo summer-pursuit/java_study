@@ -1,0 +1,16 @@
+9月 19, 2024 10:20:18 下午 book.manage.Main lambda$addStudent$1
+信息: 新添加了一条学生信息Studnet(sid=0, name=消防, sex=女, grade=2023)
+9月 19, 2024 10:21:46 下午 book.manage.Main lambda$addBook$0
+信息: 新添加了一条书籍信息Book(bid=0, title=计算机组成原理, desc=计科, price=53.9)
+9月 20, 2024 3:35:10 下午 book.manage.Main lambda$addBorrow$2
+信息: 新添加一条借阅信息3借阅3
+9月 20, 2024 4:19:55 下午 book.manage.Main lambda$addBorrow$2
+信息: 新添加一条借阅信息2借阅3
+9月 20, 2024 4:20:03 下午 book.manage.Main lambda$addBorrow$2
+信息: 新添加一条借阅信息5借阅4
+9月 20, 2024 4:35:26 下午 book.manage.Main lambda$addBorrow$2
+信息: 新添加一条借阅信息6借阅2
+9月 20, 2024 4:47:58 下午 book.manage.Main lambda$addStudent$1
+信息: 新添加了一条学生信息Student(sid=0, name=郑成功, sex=男, grade=2011)
+9月 20, 2024 4:51:59 下午 book.manage.Main lambda$addStudent$1
+信息: 新添加了一条学生信息Student(sid=0, name=haijs, sex=男, grade=2014)

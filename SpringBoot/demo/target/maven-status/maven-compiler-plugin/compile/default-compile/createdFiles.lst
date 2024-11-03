@@ -1,0 +1,9 @@
+com\example\demo\runner\TestRunner.class
+com\example\demo\config\SecurityConfiguration.class
+com\example\demo\controller\TestController.class
+com\example\demo\entity\User.class
+com\example\demo\config\WebConfiguration$1.class
+com\example\demo\entity\Student.class
+com\example\demo\config\WebConfiguration.class
+com\example\demo\DemoApplication.class
+com\example\demo\mapper\UserMapper.class

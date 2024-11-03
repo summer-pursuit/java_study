@@ -1,0 +1,107 @@
+2024-10-31T20:48:36.073+08:00  INFO 15476 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 20.0.2 with PID 15476 (C:\Users\29753\Desktop\project\java\SpringBoot\demo\target\classes started by 29753 in C:\Users\29753\Desktop\project\java\SpringBoot\demo)
+2024-10-31T20:48:36.076+08:00  INFO 15476 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "prod"
+2024-10-31T20:48:37.088+08:00  INFO 15476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-31T20:48:37.096+08:00  INFO 15476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-31T20:48:37.097+08:00  INFO 15476 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2024-10-31T20:48:37.177+08:00  INFO 15476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-31T20:48:37.177+08:00  INFO 15476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2024-10-31T20:48:37.245+08:00  WARN 15476 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed
+2024-10-31T20:48:37.246+08:00  INFO 15476 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-31T20:48:37.260+08:00  INFO 15476 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-31T20:48:37.275+08:00 ERROR 15476 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles prod are currently active).
+
+2024-10-31T20:49:07.264+08:00  INFO 2412 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 20.0.2 with PID 2412 (C:\Users\29753\Desktop\project\java\SpringBoot\demo\target\classes started by 29753 in C:\Users\29753\Desktop\project\java\SpringBoot\demo)
+2024-10-31T20:49:07.267+08:00  INFO 2412 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "prod"
+2024-10-31T20:49:08.332+08:00  INFO 2412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-31T20:49:08.344+08:00  INFO 2412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-31T20:49:08.344+08:00  INFO 2412 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2024-10-31T20:49:08.439+08:00  INFO 2412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-31T20:49:08.439+08:00  INFO 2412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1122 ms
+2024-10-31T20:49:08.561+08:00  WARN 2412 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2b2e80cc-f3cd-4aa4-99d9-46fb37a72498
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-31T20:49:08.865+08:00  INFO 2412 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fe2965c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3375ebd3, org.springframework.security.web.context.SecurityContextHolderFilter@5fed9976, org.springframework.security.web.header.HeaderWriterFilter@373afd6c, org.springframework.security.web.authentication.logout.LogoutFilter@261b9a37, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2199e845, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f363abd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@677ce519, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40943a6, org.springframework.security.web.access.ExceptionTranslationFilter@2415e4c7, org.springframework.security.web.access.intercept.AuthorizationFilter@35787726]
+2024-10-31T20:49:08.997+08:00  WARN 2412 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-10-31T20:49:09.001+08:00  INFO 2412 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-31T20:49:09.018+08:00  INFO 2412 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-31T20:49:09.035+08:00 ERROR 2412 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles prod are currently active).
+
+2024-10-31T20:49:45.067+08:00  INFO 26340 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 20.0.2 with PID 26340 (C:\Users\29753\Desktop\project\java\SpringBoot\demo\target\classes started by 29753 in C:\Users\29753\Desktop\project\java\SpringBoot\demo)
+2024-10-31T20:49:45.070+08:00  INFO 26340 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "prod"
+2024-10-31T20:49:46.221+08:00  INFO 26340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-31T20:49:46.230+08:00  INFO 26340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-31T20:49:46.231+08:00  INFO 26340 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2024-10-31T20:49:46.313+08:00  INFO 26340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-31T20:49:46.313+08:00  INFO 26340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1184 ms
+2024-10-31T20:49:46.425+08:00  WARN 26340 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b9728a8b-ec71-4670-9d60-8b2b77202779
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-31T20:49:46.627+08:00  INFO 26340 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3375ebd3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40943a6, org.springframework.security.web.context.SecurityContextHolderFilter@3fdcde7a, org.springframework.security.web.header.HeaderWriterFilter@521441d5, org.springframework.security.web.authentication.logout.LogoutFilter@15d3793b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27976390, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7302ff13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e26482, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@798cb6d9, org.springframework.security.web.access.ExceptionTranslationFilter@72ce812e, org.springframework.security.web.access.intercept.AuthorizationFilter@2199e845]
+2024-10-31T20:49:46.727+08:00  WARN 26340 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-10-31T20:49:46.730+08:00  INFO 26340 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-31T20:49:46.745+08:00  INFO 26340 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-31T20:49:46.758+08:00 ERROR 26340 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles prod are currently active).
+
